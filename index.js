@@ -1,7 +1,6 @@
 'use strict';
 
 const Promise = require("bluebird");
-const Ssdp = require('node-ssdp-lite');
 const neeoapi = require('neeo-sdk');
 const controller = require('./controller');
 
@@ -66,4 +65,3 @@ neeoapi.discoverOneBrain().then((brain) => {
 	process.exit(1);
 });
 
-SsdpClient.search('urn:schemas-upnp-org:service:ContentDirectory:1');

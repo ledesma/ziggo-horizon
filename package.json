@@ -6,8 +6,7 @@
   "dependencies": {
     "bluebird": "^3.5.1",
     "neeo-sdk": "^0.45.7",
-    "net": "^1.0.2",
-    "node-ssdp-lite": "^0.2.0"
+    "net": "^1.0.2"
   },
   "devDependencies": {},
   "scripts": {
